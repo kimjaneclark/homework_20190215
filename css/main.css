@@ -1,0 +1,95 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-color: darkblue;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+.form-item{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+opacity: 0.8;
+background-color: white;
+margin-left: 25%;
+flex-direction: column;
+border-color: white;
+border-width: 5px;
+padding: 25px 100px 25px 100px;
+}
+
+
+
+.form-wrapper{
+  background-image: url('pokemongames.jpg');
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: double;
+  border-color: white;
+  border-width: 1px;
+  padding: 25px 100px 25px 100px;
+
+}
+
+
+/* .data_label{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+width: 45%;
+padding-right: 5px;
+align-content: space-around;
+}
+
+.data_input{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  background-color: lightblue;
+  align-content: space-between;
+}
+*/
+
+
+.library-view{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  opacity: 0.8;
+  background-color: white;
+  margin-left: 25%;
+  flex-direction: column;
+  border-color: white;
+  border-width: 5px;
+  padding: 25px 100px 25px 100px;
+
+}
