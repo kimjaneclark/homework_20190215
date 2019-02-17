@@ -44,6 +44,12 @@ const createPokemonListItem = function (form) {
   combat_points.textContent = form.combat_points.value;
   pokemonListItem.appendChild(combat_points);
 
+  const status = document.createElement('p');
+  status.textContent = form.status.value;
+  pokemonListItem.appendChild(status);
+
+
+
   return pokemonListItem;
 }
 
